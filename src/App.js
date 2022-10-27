@@ -1,15 +1,14 @@
 import Contact from "./Contact"
 import About from "./About"
+import Footer from "./Footer"
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={"./img/self.jpeg"} className="App-logo" alt="logo" />
+    <div className="app">
         <Contact />
         <About />
-      </header>
+        <Footer />
     </div>
   );
 }

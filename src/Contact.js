@@ -1,10 +1,11 @@
 export default function Contact(){
     return(
-        <div>
+        <div className="contact">
+            <img src={require("./img/self.jpeg")} className="head-shot" alt="black and white image of a man with glasses" />
             <h1 className="contact-name">Joshua Saylor</h1>
             <h3 className="contact-sub-header">Front-End Developer</h3>
-            <button className="contact-btn email-btn"><img></img>Email</button>
-            <button className="contact-btn linkedin-btn"><img></img>LinkedIn</button>
+            <a className="contact-btn email-btn"><img className="icons" src={require('./img/email.png')} />Email</a>
+            <a className="contact-btn linkedin-btn"><img className="icons" src={require('./img/linkedin.png')} />LinkedIn</a>
         </div>
 
     )

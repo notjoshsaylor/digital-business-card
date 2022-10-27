@@ -1,0 +1,40 @@
+.app{
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: ;
+    background-color: #1A1B21;
+    color: #FFFFFF;
+    max-width: 19.8125em;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+.head-shot{
+    width: 19.8125em;
+    border-radius: 20px 20px 0 0 ;
+
+}
+
+.contact{
+    text-align: center;
+}
+
+.contact-btn{
+    width:2.5em;
+    background-color: #D1D5DB;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.about{
+
+}
+
+footer{
+
+}
+.icons{
+    width: 1.5rem;
+}
