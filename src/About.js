@@ -1,15 +1,20 @@
 export default function About(){
     return(
         <main className="about">
-            <h2>About</h2>
-            <p>Former bartender turned front end developer with an intrest
-                in making visualy pleasing and interesting projects. I am 
-                always looking to learn and get 1% better everyday.
-            </p>
-            <h2>Interests</h2>
-            <p>Creating cocktails, reading, finance, tech, movies, and 
-                spending time with my family.
-            </p>
+            <div className="about-sect">
+                <h2 className="about-sect-header">About</h2>
+                <p className="about-sect-body">Former bartender turned front end developer with an intrest
+                    in making visualy pleasing and interesting projects. I am 
+                    always looking to learn and get 1% better everyday.
+                </p>
+            </div>
+
+            <div className="interests-sect">
+                <h2 className="about-sect-header">Interests</h2>
+                <p className="about-sect-body">Creating cocktails, reading, finance, tech, movies, and 
+                    spending time with my family.
+                </p>
+            </div>
         </main>
     )
 }
